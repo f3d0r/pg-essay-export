@@ -1,11 +1,20 @@
 {
-  "name": "pg_essay_export",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Fedor Paretsky",
-  "license": "MIT"
+    "name": "pg_essay_export",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Fedor Paretsky",
+    "license": "MIT",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "del": "^3.0.0",
+        "fs": "0.0.1-security",
+        "html-pdf": "^2.2.0",
+        "p-limit": "^2.0.0",
+        "pdfmerger": "^0.2.0",
+        "request": "^2.88.0"
+    }
 }
